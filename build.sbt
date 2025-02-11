@@ -8,5 +8,6 @@ lazy val root = project
     scalaVersion                           := scala3Version,
     fork                                   := true,
     libraryDependencies += "dev.zio"       %% "zio-http" % "3.0.1",
+    libraryDependencies += "dev.zio"       %% "zio-json" % "0.7.17",
     libraryDependencies += "org.scalameta" %% "munit"    % "1.0.0" % Test,
   )
